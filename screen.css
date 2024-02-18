@@ -21,8 +21,10 @@ header {
 }
 
 header h1 {
-    margin: 0;
+    margin-top: 52px;
+    margin-left: 72px;
     font-weight: 700;
+    font-size: 44px;
 }
 
 main {
@@ -62,6 +64,7 @@ main {
 h3 {
     font-size: 64px;
     text-align: center;
+    font-weight: 900;
 }
 p {
     font-size: 32px;
