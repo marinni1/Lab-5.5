@@ -73,19 +73,26 @@ form {
     flex-shrink: 0;
     border-radius: 40px;
     margin-bottom: 172px;
+}
 
-}
-button {
-    background-color: #FF3F3C;
-    width: 254px;
-height: 96px;
-flex-shrink: 0;
-}
-input {
+.cta input[type="text"] {
     background: #ECECEC;
     width: 642px;
     height: 96px;
     flex-shrink: 0;
     font-size: 24px;
-    justify-content: center;
+    text-align: center;
+    margin-top: 47px;
+    margin-left: 51px;   
+    border: none;
+}
+.cta input[type="button"] {
+    background-color: #FF3F3C;
+    width: 254px;
+    height: 96px;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    color: white;
+    border: none;
 }
